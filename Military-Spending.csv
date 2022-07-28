@@ -1,4 +1,4 @@
-country,abbr,lng,lat,share_in_gdp,share_in_usd,per_capita,share_of_gov_spending
+country,abbr,lat,lng,share_in_gdp,share_in_usd,per_capita,share_of_gov_spending
 Afghanistan,AF,33.93911,67.709953,...,278.3,29.4,...
 Albania,AL,41.153332,20.168331,1.42%,236.4,58.9,4.19%
 Algeria,DZ,28.033886,1.659626,5.59%,9112.5,...,15.24%
