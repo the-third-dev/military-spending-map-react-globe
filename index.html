@@ -25,7 +25,7 @@
     useEffect(() => {
       // load data
       fetch('./Military-Spending.csv').then(res => res.text())
-        .then(csv => d3.csvParse(csv, ({ lat, lng, pop }) => ({ lat: +lat, lng: +lng, country: +county, per_capita: +per_capita })))
+        .then(csv => d3.csvParse(csv, ({ lat, lng, pop }) => ({ lat: +lat, lng: +lng, country: +country, per_capita: +per_capita })))
         .then(setPopData);
 
         // fetch('./countries-lng-lat.csv').then(res => res.text())
