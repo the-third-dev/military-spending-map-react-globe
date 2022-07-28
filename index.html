@@ -49,7 +49,7 @@
       backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
 
       hexBinPointsData={popData}
-      hexBinPointWeight="pop"
+      hexBinPointWeight="per_capita"
       hexAltitude={d => d.sumWeight * 6e-8}
       hexBinResolution={4}
       hexTopColor={d => weightColor(d.sumWeight)}
